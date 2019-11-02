@@ -1,2 +1,2 @@
-include ':app', ':datasource'
+include ':eventapp', ':datasource'
 rootProject.name='EventApp'
