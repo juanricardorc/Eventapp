@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profile_item"
+        android:icon="@drawable/ic_user"
+        android:orderInCategory="100"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/event_item"
+        android:icon="@drawable/ic_pin"
+        android:orderInCategory="101"
+        android:title="Events"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/map_item"
+        android:icon="@drawable/ic_map"
+        android:orderInCategory="102"
+        android:title="Maps"
+        app:showAsAction="never" />
+
+</menu>
